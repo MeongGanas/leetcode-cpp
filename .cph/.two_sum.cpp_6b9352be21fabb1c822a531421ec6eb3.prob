@@ -1,0 +1,1 @@
+{"name":"Local: two_sum","url":"/home/farrel/Desktop/leetcode-cpp/two_sum.cpp","tests":[{"id":1755351096337,"input":"2, 7, 11, 15","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/farrel/Desktop/leetcode-cpp/two_sum.cpp","group":"local","local":true}
