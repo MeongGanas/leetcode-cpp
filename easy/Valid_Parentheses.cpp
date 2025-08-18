@@ -22,12 +22,14 @@ public:
     bool isValid(string s) {
         stack<char> left_pairs = {};
         
-        for (int i = 0; i < s.size(); i++){
-            char pair = getPair(s[i]);
-            
+        for (int i = 0; i < s.size(); i++){            
             if(!left_pairs.empty() && left_pairs.top() == s[i]){
                 left_pairs.pop();
             } else {
+                char pair = getPair(s[i]);
+                if(pair == '0'){
+                    return false;
+                }
                 left_pairs.push(pair);
             }
         }
